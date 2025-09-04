@@ -1,0 +1,146 @@
+body {
+      background-color: #e30613!important;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+   padding-left: 15rem;
+      padding-right: 15rem;
+    }
+    
+   
+    
+    .gray-section {
+      background-color: #e5e5e5;
+      min-height: 200px;
+    }
+    
+   
+    .nav-dots {
+      width: 40px;
+      height: 8px;
+      background-color: white;
+      margin: 2px;
+    }
+    
+    .nav-dots.small {
+      width: 20px;
+    }
+    
+
+    .hero{
+      padding-bottom:7rem;
+    }
+    .main-title {
+      font-size: 4rem;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      margin: 2rem 0;
+    }
+    .link{
+      color:#ffffff
+    }
+    .hero-text {
+      font-size: 5rem;
+      font-weight: bold;
+      line-height: 1.2;
+      margin: 3rem 0;
+      color:rgb(255, 255, 255);
+    }
+    
+    .arrow-down {
+      font-size: 4rem;
+      margin: 1rem 0;
+      color:white;
+    }
+    
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin: 3rem 0 2rem 0;
+    }
+    
+    .manifesto-item {
+      border-top: 1px solid white;
+      padding-bottom: 2rem;
+      padding-top:2rem;
+      margin: 3rem 0;
+    }
+    
+    .manifesto-number {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color:white;
+    }
+    
+    .manifesto-title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color:white;
+    }
+    
+    .manifesto-text {
+      font-size: 1rem;
+      line-height: 1.4;
+      margin-bottom: 1rem;
+      color:white;
+    }
+    
+    .learn-more {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .learn-more:hover {
+      color: #f0f0f0;
+    }
+    
+    .bottom-title {
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: 0.1em;
+      margin: 3rem 0;
+    }
+    
+    .gray-box {
+      background-color: #e5e5e5;
+      height: 300px;
+      width: 100%;
+    }
+    
+    @media (max-width: 768px) {
+      body{
+        padding:0;
+      }
+      .main-title {
+        font-size: 2.5rem;
+      }
+      
+      .hero-text {
+        font-size: 3rem;
+      }
+      
+      .section-title {
+        font-size: 2rem;
+      }
+      
+      .manifesto-number {
+        font-size: 2rem;
+      }
+      
+      .manifesto-title {
+        font-size: 1.5rem;
+      }
+      
+      .bottom-title {
+        font-size: 2rem;
+      }
+    }
+
+
+
+
+    /* education */
+    

@@ -1,0 +1,174 @@
+body {
+      background-color:#e30613 !important;
+       color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding-left: 15rem;
+      padding-right: 15rem;
+    }
+    
+   
+    .gray-section {
+      background-color: #e5e5e5;
+      min-height: 200px;
+    }
+    .link{
+      color:#ffffff
+    }
+    
+    .nav-dots.small {
+      width: 20px;
+    }
+    
+    /* New styles for this page */
+    .hero {
+      color:white;
+      font-size: 5rem;
+      font-weight: bold;
+      line-height: 1.2;
+      margin: 3rem 0;
+    }
+    
+    .hero-description {
+      color:white;
+      font-size: 1rem;
+      line-height: 1.4;
+      margin: 2rem 0;
+    }
+    .index-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 2rem 2rem;
+  
+}
+    .index-title {
+      color:white;
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 1rem 0 2rem 0;
+      
+      
+    }
+    
+    .index-list {
+      color:white;
+      list-style: none;
+      padding: 0;
+      margin: 2rem 0;
+    }
+    
+    .index-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0;
+      border-bottom: 1px solid rgba(255,255,255,0.3);
+      font-size: 1.1rem;
+    }
+    
+    .index-item:hover {
+      background-color: rgba(255,255,255,0.1);
+      cursor: pointer;
+    }
+    
+    .plus-sign {
+      color:white;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    
+    .section-number {
+      color:white;
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    
+    .section-main-title {
+      color:white;
+      font-size: 2.5rem;
+      font-weight: bold;
+      line-height: 1.2;
+      margin-bottom: 2rem;
+    }
+    
+    .section-description {
+      color:white;
+      font-size: 2rem;
+      line-height: 1.4;
+      margin: 2rem 0;
+    }
+    
+    .stats-container {
+      display: flex;
+      flex-direction:row;
+      justify-content: space-between;
+      margin: 3rem 0;
+      gap: 2rem;
+    }
+    
+    .stat-item {
+      text-align: center;
+      flex: 1;
+    }
+    
+    .stat-percentage {
+      color:white;
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    
+    .stat-label {
+      color:white;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+    
+    .quote-section {
+      border-left: 4px solid white;
+      padding-left: 2rem;
+      margin: 3rem 0;
+      font-style: italic;
+    }
+    
+    .quote-text {
+      color:white;
+      font-size: 1.2rem;
+      line-height: 1.4;
+      margin-bottom: 1rem;
+    }
+    
+    .source-data {
+      color:white;
+      font-size: 0.9rem;
+      opacity: 0.8;
+      margin-top: 1rem;
+    }
+    
+   
+    @media (max-width: 768px) {
+      body{
+        padding:0;
+      }
+      .hero {
+        font-size: 3rem;
+      }
+      
+      .section-main-title {
+        font-size: 2rem;
+      }
+      
+      .stats-container {
+        flex-direction: row;
+        gap: 1rem;
+      }
+      
+      .stat-percentage {
+        font-size: 3rem;
+      }
+      
+      .index-title {
+        font-size: 1.5rem;
+      }
+    }
