@@ -324,7 +324,7 @@ body {
 /* Red content section with text */
 .red-content-section {
   background-color: #e30613;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   margin: 0;
 }
 
@@ -338,7 +338,7 @@ body {
 /* Title section styling */
 .title-section {
   background-color: #e30613;
-  padding: 4rem 2rem;
+  padding: 1rem 2rem;
   text-align: center;
 }
 
@@ -353,8 +353,8 @@ body {
 
 /* Bottom section with image and text */
 .bottom-section {
-  background-color: #e30613;
-  padding: 4rem 2rem;
+  
+  padding: 1rem 1rem;
 }
 
 .bottom-content {
@@ -364,9 +364,11 @@ body {
 }
 
 .bottom-image {
-  background-color: #d3d3d3;
+  background-color: #ffffff;
+  color:white;
   min-height: 400px;
   flex: 0 0 40%;
+  
 }
 
 .bottom-text {
@@ -414,8 +416,13 @@ body {
   
   .title-section h2 {
     font-size: 2.5rem;
-  }
   
+  }
+  .title-section {
+  background-color: #e30613;
+  padding: 1rem 1rem;
+  text-align: left;
+}
   .bottom-content {
     flex-direction: column;
     gap: 2rem;
@@ -424,6 +431,9 @@ body {
   .bottom-image {
     flex: none;
     min-height: 250px;
+    color:white;
+    background-color:white;
+    width: 100%; 
   }
   
   .gray-columns {

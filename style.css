@@ -1,7 +1,57 @@
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: url('./font/woff/ClashGrotesk-Extralight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: url('./font/woff/ClashGrotesk-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: url('./font/woff/ClashGrotesk-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: url('./font/woff/ClashGrotesk-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: url('./font/woff/ClashGrotesk-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: url('./font/woff/ClashGrotesk-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('./font/woff/Satoshi-Variable.ttf') format('true type');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 body {
       background-color: #e30613!important;
       color: white;
-      font-family: Arial, sans-serif;
+      font-family: 'ClashGrotesk', sans-serif;
       margin: 0;
    padding-left: 15rem;
       padding-right: 15rem;
@@ -32,7 +82,7 @@ body {
     }
     .main-title {
       font-size: 4rem;
-      font-weight: bold;
+      font-weight: 600;
       letter-spacing: 0.1em;
       margin: 2rem 0;
     }
@@ -40,27 +90,43 @@ body {
       color:#ffffff
     }
     .hero-text {
+      font-family: 'ClashGrotesk', sans-serif;
       font-size: 5rem;
-      font-weight: bold;
+      font-weight: 550;
       line-height: 1.2;
       margin: 3rem 0;
       color:rgb(255, 255, 255);
     }
     
     .arrow-down {
-      font-size: 4rem;
+      font-size: 10rem;
       margin: 1rem 0;
       color:white;
     }
     
-    .section-title {
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin: 3rem 0 2rem 0;
+    .manifesto-intro-text{
+      color:white;
+      font-size:1.25rem;
+      font-weight:500;
+
     }
-    
+    .section-title {
+      font-family: 'ClashGrotesk', sans-serif;
+      font-size: 4rem;
+      font-weight: 600;
+      margin: 3rem 0 2rem 0;
+      color: #E30613;
+    }
+
+
+    .manifesto-section{
+      padding-top:1rem;
+      padding-bottom:1rem;
+    }
+
+
     .manifesto-item {
-      border-top: 1px solid white;
+      border-top: 1px solid #E30613;
       padding-bottom: 2rem;
       padding-top:2rem;
       margin: 3rem 0;
@@ -70,31 +136,34 @@ body {
       font-size: 3rem;
       font-weight: bold;
       margin-bottom: 1rem;
-      color:white;
+      color: #E30613;
     }
     
     .manifesto-title {
-      font-size: 1.8rem;
-      font-weight: bold;
+      font-family: 'ClashGrotesk', sans-serif;
+      font-size: 3rem;
+      font-weight: 600;
       margin-bottom: 1rem;
-      color:white;
+      color: #E30613;
     }
     
     .manifesto-text {
       font-size: 1rem;
       line-height: 1.4;
       margin-bottom: 1rem;
-      color:white;
+      color: #E30613;
     }
     
     .learn-more {
-      color: white;
+      color:   #E30613;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 300;
+      padding:1rem;
+      font-size: 1rem;
     }
     
     .learn-more:hover {
-      color: #f0f0f0;
+      color:  #E30613;
     }
     
     .bottom-title {
@@ -109,7 +178,60 @@ body {
       height: 300px;
       width: 100%;
     }
+
+     .button{
+      background-color:white;
+     border: 1px solid #E30613;
+      padding:1rem;
+      box-shadow: none;
+      outline:none;
+      appearance: none;
+    -webkit-appearance: none;
+      border-radius:5px;
+      
+    }
+
+    .button:hover{
+      background-color:#E30613;
+     border: 1px solid white ;
+      padding:1rem;
+      box-shadow: none;
+      outline:none;
+      appearance: none;
+    -webkit-appearance: none;
+      border-radius:5px;
+      transition: all 0.2s ease
+    }
+
+    .learn-more:hover{
+      color:white;
+      transition: all 0.2s ease
+    }
     
+
+    p{
+      font-family: 'Satoshi';
+      font-weight: 500;
+    }
+    .bottom-title{
+      font-family: 'ClashGrotesk';
+      font-weight: 600;
+      font-size: 3rem;
+    }
+    .book-text{
+      font-family: Satoshi;
+      font-weight: 400;
+      color:white;
+    }
+
+
+
+    .bottom-footer{
+      margin-top:2rem;
+      padding:5rem;
+      color:white;
+      font-family: 'Satoshi';
+    }
     @media (max-width: 768px) {
       body{
         padding:0;
@@ -137,10 +259,35 @@ body {
       .bottom-title {
         font-size: 2rem;
       }
+
+      .button{
+        padding:0.5rem;
+      }
+
+      .learn-more{
+        font-size:0.80rem;
+      }
+
+       .button:hover{
+      background-color:#E30613;
+     border: 1px solid white ;
+      padding:0.5rem;
+      box-shadow: none;
+      outline:none;
+      appearance: none;
+    -webkit-appearance: none;
+      border-radius:5px;
+      transition: all 0.2s ease
+    }
+
+    .bottom-footer{
+      margin-top:1rem;
+      padding:1rem;
+    }
     }
 
 
 
 
     /* education */
-    
+   
