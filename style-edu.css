@@ -47,6 +47,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: url('./font/ClashGrotesk-Variable.ttf') format('true type');
+  font-weight: 700;
+  font-style: normal;
+}
 
 body {
       background-color:#e30613 !important;

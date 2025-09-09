@@ -42,11 +42,17 @@
 
 @font-face {
   font-family: 'Satoshi';
-  src: url('./font/woff/Satoshi-Variable.ttf') format('true type');
+  src: url('./font/Satoshi-Variable.ttf') format('true type');
   font-weight: 700;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'ClashGrotesk';
+  src: url('./font/ClashGrotesk-Variable.ttf') format('true type');
+  font-weight: 700;
+  font-style: normal;
+}
 
 body {
       background-color: #e30613!important;
