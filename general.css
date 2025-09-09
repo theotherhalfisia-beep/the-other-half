@@ -1,3 +1,4 @@
+/* ====== FONTS ====== */
 @font-face {
   font-family: 'ClashGrotesk';
   src: url('./font/woff/ClashGrotesk-Extralight.woff') format('woff');
@@ -39,13 +40,6 @@
   font-weight: 700;
   font-style: normal;
 }
-@font-face {
-  font-family: 'ClashGrotesk';
-  src: url('./font/ClashGrotesk-Variable.ttf') format('true type');
-  font-weight: 700;
-  font-style: normal;
-}
-
 
 @font-face {
   font-family: 'Satoshi';
@@ -57,15 +51,34 @@
 @font-face {
   font-family: 'Satoshi';
   src: url('./font/Satoshi-Regular.woff') format('woff');
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
 }
 
+/* ====== BODY ====== */
 body {
-      background-color: #e30613!important;
-      color: white;
-      font-family: 'ClashGrotesk', sans-serif;
-      margin: 0;
-   padding-left: 15rem;
-      padding-right: 15rem;
-    }
+  background-color: #e30613 !important;
+  color: white;
+  font-family: 'ClashGrotesk', sans-serif;
+  margin: 0;
+  padding-left: clamp(2rem, 10vw, 15rem);
+  padding-right: clamp(2rem, 10vw, 15rem);
+}
+
+/* ====== OPTIONAL MEDIA QUERIES (if you want explicit control) ====== */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  body {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
