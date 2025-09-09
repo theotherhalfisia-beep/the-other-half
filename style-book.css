@@ -185,7 +185,7 @@
 }
 .bottom-text p {
   font-family: 'Satoshi';
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -256,7 +256,7 @@
     max-width: 100%;
     margin-bottom: 2rem;
     padding-left:0.80rem;
-    padding-rightgit:0.80rem;
+    padding-right:0.80rem;
   }
 
   /* Title section */
