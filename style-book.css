@@ -127,6 +127,7 @@
 .red-content-section {
   background-color: #e30613;
   margin-bottom: 5rem;
+  
 }
 
 .red-content-section .section-description {
@@ -254,6 +255,8 @@
   .red-content-section .section-description {
     max-width: 100%;
     margin-bottom: 2rem;
+    padding-left:0.80rem;
+    padding-rightgit:0.80rem;
   }
 
   /* Title section */
