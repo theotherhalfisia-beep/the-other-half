@@ -40,13 +40,13 @@
   margin-bottom:5rem;
   
 }
-    .index-title {
-       font-family: 'ClashGrotesk', sans-serif;
-       font-weight: 500;
-      color:white;
-      font-size: 2rem;
-      font-weight: bold;
-      margin: 1rem 0 2rem 0;
+  .index-title {
+    font-family: 'ClashGrotesk', sans-serif;
+    font-weight: 500;
+    color:white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0 2rem 0;
       
       
     }
@@ -83,21 +83,21 @@
     .section{
       margin-bottom:10rem;
     }
+
     .section-number {
        font-family: 'ClashGrotesk', sans-serif;
        font-weight: 600;
       color:white;
-      font-size: 4rem;
-      
+      font-size: 4rem;  
       margin-bottom: 1rem;
     }
     
+
     .section-main-title {
        font-family: 'ClashGrotesk', sans-serif;
        font-weight: 600;
       color:white;
       font-size: 4rem;
-      
       line-height: 1.2;
       margin-bottom: 2rem;
     }
@@ -123,10 +123,10 @@
     
     .stat-item {
      display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  margin-bottom: 4rem;
-  gap: 2rem;
+      align-items: flex-end;
+      justify-content: left;
+      margin-bottom: 2rem;
+      gap: 2rem;
     }
     
     .stat-percentage {
@@ -143,7 +143,7 @@
   color: white;
   font-family:'ClashGrotesk';
   font-size: 500;
-  
+  text-align: left;
   padding-top: 1rem;
   flex: 1;
     }
@@ -210,8 +210,13 @@
       margin-bottom:2rem;
     }
 
-    .stat-percentage{
-      align-items: center;
+    .section-description {
+      color:white;
+      font-size: 1.2rem;
+   
+      margin: 2rem 0;
+      font-family:'Satoshi';
+      font-weight:medium;
     }
 
     .stat-item {
@@ -266,8 +271,8 @@
 
 /* Red content section with text */
 .red-content-section {
-  background-color: #e30613;
-  padding: 4rem 2rem;
+  
+  /* padding: 4rem 2rem; */
   margin: 0;
 }
 
@@ -280,8 +285,8 @@
 
 /* Title section styling */
 .title-section {
-  background-color: #e30613;
-  padding: 4rem 2rem;
+  
+  
   text-align: center;
 }
 

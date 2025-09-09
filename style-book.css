@@ -1,267 +1,132 @@
-
-
-    
-   
-    .index-list a {
-      font-family: 'Satoshi';
-  text-decoration: none; /* no underline */
-  color: inherit; /* optional: keep text color consistent */
+/* ------------------------------
+   GLOBAL / BASE STYLES
+------------------------------ */
+.index-list a {
+  font-family: 'Satoshi';
+  text-decoration: none;
+  color: inherit;
 }
-
-/* Optional: add hover effect without underline */
 .index-list a:hover {
   text-decoration: none;
-  color: #ffffff; /* or whatever color you prefer */
+  color: #ffffff;
 }
-  
-    .link{
-      color:#ffffff
-    }
-    
-    .nav-dots.small {
-      width: 20px;
-    }
-    
-    /* New styles for this page */
-  
-    
-    .hero-description {
-      color:white;
-      font-size: 1rem;
-      line-height: 1.4;
-      margin: 2rem 0;
-    }
-    .index-container {
+.link {
+  color: #ffffff;
+}
+.nav-dots.small {
+  width: 20px;
+}
+
+
+/* ------------------------------
+   INDEX SECTION
+------------------------------ */
+.index-container {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
-  padding: 2rem 2rem;
-  margin-top:5rem;
-  margin-bottom:5rem;
-  
+  padding: 2rem;
+  margin: 5rem 0;
 }
-    .index-title {
-       font-family: 'ClashGrotesk', sans-serif;
-       font-weight: 500;
-      color:white;
-      font-size: 2rem;
-      font-weight: bold;
-      margin: 1rem 0 2rem 0;
-      
-      
-    }
-    
-    .index-list {
-      color:white;
-      list-style: none;
-      padding: 0;
-      margin: 2rem 0;
-    }
-    
-    .index-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 0;
-      border-bottom: 1px solid rgba(255,255,255,0.3);
-      font-size: 1.1rem;
-    }
-    
-    .index-item:hover {
-      background-color: rgba(255,255,255,0.1);
-      cursor: pointer;
-    }
-    
-    .plus-sign {
-      color:white;
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
-    
+.index-title {
+  font-family: 'ClashGrotesk', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+  margin: 1rem 0 2rem;
+}
+.index-list {
+  color: white;
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+.index-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  font-size: 1.1rem;
+}
+.index-item:hover {
+  background-color: rgba(255,255,255,0.1);
+  cursor: pointer;
+}
+.plus-sign {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
-    .section{
-      margin-bottom:10rem;
-    }
-    .section-number {
-       font-family: 'ClashGrotesk', sans-serif;
-       font-weight: 600;
-      color:white;
-      font-size: 4rem;
-      
-      margin-bottom: 1rem;
-    }
-    
-    .section-main-title {
-       font-family: 'ClashGrotesk', sans-serif;
-       font-weight: 600;
-      color:white;
-      font-size: 4rem;
-      
-      line-height: 1.2;
-      margin-bottom: 2rem;
-    }
-    
-    .section-description {
-      color:white;
-      font-size: 1.5rem;
-      line-height: 1.4;
-      margin: 2rem 0;
-      font-family:'Satoshi';
-      font-weight:300;
-    }
-    
-    .stats-container {
-      padding: 2rem 0;
-      
-    }
-    
-    .stat-item {
-     display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  margin-bottom: 4rem;
-  gap: 2rem;
-    }
-    
-    .stat-percentage {
-     font-size: 8rem;
+/* ------------------------------
+   SECTION HEADINGS
+------------------------------ */
+.section {
+  margin-bottom: 10rem;
+}
+.section-number {
+  font-family: 'ClashGrotesk', sans-serif;
   font-weight: 600;
   color: white;
-  line-height: 0.9;
-  min-width: 300px;
-  font-family: 'ClashGrotesk';
-    }
-    
-    .stat-label {
-    font-size: 2rem;
-  color: white;
-  font-family:'Satoshi';
-  
-  padding-top: 1rem;
-  flex: 1;
-    }
-
-
-    .quote{
-      margin-bottom:13rem;
-    }
-    .quote-section {
-      border-left: 4px solid white;
-      padding-left: 2rem;
-      margin: 3rem 0;
-      font-style: italic;
-    }
-    
-    .quote-text {
-      color:white;
-      font-size: 1.2rem;
-      line-height: 1.4;
-      margin-bottom: 1rem;
-    }
-    
-    .source-data {
-      color:white;
-      font-size: 0.9rem;
-      opacity: 0.8;
-      margin-top: 1rem;
-    }
-    
-    .bottom-footer{
-      margin-top:2rem;
-      padding:5rem;
-      color:white;
-      font-family: 'Satoshi';
-      padding:2rem;
-      
-    }
-    @media (max-width: 768px) {
-      body{
-        padding:0;
-      }
-      .hero {
-        font-size: 3rem;
-      }
-      
-      .section-main-title {
-        font-size: 2rem;
-      }
-      
-      .stats-container {
-        flex-direction: row;
-        gap: 1rem;
-      }
-      
-      .stat-percentage {
-        font-size: 3rem;
-      }
-      
-      .index-title {
-        font-size: 1.5rem;
-      }
-      .quote{
-      margin-bottom:2rem;
-    }
-
-    .stat-percentage{
-      align-items: center;
-    }
-
-    .stat-item {
-     display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  font-size: 4rem;
   margin-bottom: 1rem;
-  margin-top:1rem;
-  gap: 2rem;
-  text-align:center;
-    }
-
- .stat-label {
-    font-size: 1.75rem;
+}
+.section-main-title {
+  font-family: 'ClashGrotesk', sans-serif;
+  font-weight: 600;
   color: white;
-  font-family:'Satoshi';
-  
-  padding-bottom: 2rem;
-  margin-top:0;
-  flex: 1;
-    }
-    }
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+.section-description {
+  font-family: 'Satoshi';
+  font-weight: 300;
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin: 2rem 0;
+}
 
 
 
+/* ------------------------------
+   FOOTER
+------------------------------ */
+.bottom-footer {
+  margin-top: 2rem;
+  padding: 2rem;
+  color: white;
+  font-family: 'Satoshi';
+}
 
-  /* Add these styles to your existing CSS */
-
-/* Gray section styling */
+/* ------------------------------
+   GRAY & RED CONTENT BLOCKS
+------------------------------ */
 .gray-section {
   background-color: #d3d3d3;
   min-height: 300px;
   margin-bottom: 2rem;
 }
-
-/* Large gray section (full width) */
 .gray-section.large {
   min-height: 400px;
   margin: 3rem 0;
 }
-
-/* Two column gray sections */
 .gray-columns {
   display: flex;
   gap: 1rem;
   margin: 3rem 0;
 }
-
 .gray-columns .gray-section {
   flex: 1;
   min-height: 350px;
   margin-bottom: 0;
 }
 
-/* Red content section with text */
+/* CLEANED UP RED CONTENT SECTION */
 .red-content-section {
   background-color: #e30613;
-  padding: 2rem 2rem;
-  margin: 0;
+  margin-bottom: 5rem;
 }
 
 .red-content-section .section-description {
@@ -270,14 +135,31 @@
   font-size: 1.2rem;
   line-height: 1.5;
 }
+.red-content-section .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* CLEANED UP BOTTOM IMAGE STYLES */
+.bottom-image {
+  background-color: #ffffff;
+  min-height: 400px;
+  margin: 0;
+  width: 100%;
+}
 
-/* Title section styling */
+/* Specific rule for bottom-section layout */
+.bottom-section .bottom-image {
+  flex: 0 0 40%;
+}
+
+/* ------------------------------
+   TITLE SECTION
+------------------------------ */
 .title-section {
   background-color: #e30613;
   padding: 1rem 2rem;
   text-align: center;
 }
-
 .title-section h2 {
   font-family: 'ClashGrotesk', sans-serif;
   font-weight: 600;
@@ -287,39 +169,25 @@
   letter-spacing: 2px;
 }
 
-/* Bottom section with image and text */
-.bottom-section {
-  
-  padding: 1rem 1rem;
-}
-
+/* ------------------------------
+   BOTTOM SECTION
+------------------------------ */
+.bottom-section { }
 .bottom-content {
   display: flex;
-  
   gap: 3rem;
   align-items: flex-start;
 }
-
-.bottom-image {
-  background-color: #ffffff;
-  color:white;
-  min-height: 400px;
-  flex: 0 0 40%;
-  
-}
-
 .bottom-text {
   flex: 1;
   color: white;
 }
-
 .bottom-text p {
   font-family: 'Satoshi';
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
 }
-
 .cta-button {
   border: 2px solid white;
   background: transparent;
@@ -333,46 +201,81 @@
   gap: 1rem;
   transition: all 0.3s ease;
 }
-
 .cta-button:hover {
   background-color: white;
   color: #e30613;
 }
-
 .cta-button::after {
   content: "→";
   font-size: 1.2rem;
 }
 
-/* Responsive adjustments */
+/* ------------------------------
+   RESPONSIVE (≤768px)
+------------------------------ */
 @media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+  .hero {
+    font-size: 3rem;
+  }
+  .section-main-title {
+    font-size: 2rem;
+  }
+  .index-title {
+    font-size: 1.5rem;
+  }
+  .quote {
+    margin-bottom: 2rem;
+  }
+
+  /* Stats */
+  .stats-container {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .stat-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .stat-percentage {
+    font-size: 3rem;
+  }
+  .stat-label {
+    font-size: 1.75rem;
+    padding-bottom: 2rem;
+    margin-top: 0;
+  }
+
+  /* Red section */
   .red-content-section .section-description {
     max-width: 100%;
-    margin-left: 0;
+    margin-bottom: 2rem;
   }
-  
+
+  /* Title section */
+  .title-section {
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
   .title-section h2 {
     font-size: 2.5rem;
-  
   }
-  .title-section {
-  background-color: #e30613;
-  padding: 1rem 1rem;
-  text-align: left;
-}
+
+  /* Bottom section */
   .bottom-content {
     flex-direction: column;
     gap: 2rem;
   }
-  
   .bottom-image {
     flex: none;
     min-height: 250px;
-    color:white;
-    background-color:white;
-    width: 100%; 
+    width: 100%;
   }
-  
   .gray-columns {
     flex-direction: column;
     gap: 1rem;
