@@ -265,7 +265,7 @@
 }
 
 .red-content-section .section-description {
-  max-width: 50%;
+  max-width: 70%;
   margin-left: auto;
   font-size: 1.2rem;
   line-height: 1.5;
@@ -295,6 +295,7 @@
 
 .bottom-content {
   display: flex;
+  
   gap: 3rem;
   align-items: flex-start;
 }

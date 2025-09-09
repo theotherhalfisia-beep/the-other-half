@@ -116,6 +116,8 @@
     }
 
      .button{
+      font-family: 'Satoshi';
+      font-weight: 600;
       background-color:white;
      border: 1px solid #E30613;
       padding:1rem;
@@ -128,6 +130,7 @@
     }
 
     .button:hover{
+      font-family: 'Satoshi';
       background-color:#E30613;
      border: 1px solid white ;
       padding:1rem;
