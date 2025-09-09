@@ -23,15 +23,7 @@
     }
     
     /* New styles for this page */
-    .hero {
-       font-family: 'ClashGrotesk', sans-serif;
-       font-weight: 600;
-      color:white;
-      font-size: 5rem;
-      
-      line-height: 1.2;
-      margin: 3rem 0;
-    }
+  
     
     .hero-description {
       color:white;

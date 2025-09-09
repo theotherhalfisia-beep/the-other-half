@@ -33,15 +33,7 @@
     .link{
       color:#ffffff
     }
-    .hero-text {
-      font-family: 'ClashGrotesk', sans-serif;
-      font-size: 5rem;
-      font-weight: 550;
-      line-height: 1.2;
-      margin: 3rem 0;
-      color:rgb(255, 255, 255);
-    }
-    
+  
     .arrow-down {
       font-size: 10rem;
       margin: 1rem 0;
