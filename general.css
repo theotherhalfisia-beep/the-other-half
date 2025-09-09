@@ -80,7 +80,9 @@ body {
     font-weight: 500;
   }
 
-
+.bottom-footer{
+  margin-top:6rem;
+}
 /* ====== OPTIONAL MEDIA QUERIES (if you want explicit control) ====== */
 
 /* Tablet */
@@ -112,5 +114,13 @@ img{
     font-size:0.85rem;
     font-family: 'ClashGrotesk';
     font-weight: 500;
+  }
+
+.bottom-footer{
+  margin-top:3rem;
+}
+  .footer-text{
+    font-size:0.75rem;
+    font-weight:750;
   }
 }
