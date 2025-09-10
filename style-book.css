@@ -308,4 +308,9 @@ width:100%;
     flex-direction: column;
     gap: 1rem;
   }
+
+
+  .bottom-text{
+    margin-left:1rem;
+  }
 }

@@ -117,7 +117,7 @@
       font-weight:500;
     }
     .stats-container {
-      padding: 2rem 0;
+      padding: 1rem 0;
       
     }
     
@@ -144,7 +144,7 @@
   font-family:'ClashGrotesk';
   font-size: 500;
   text-align: left;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   flex: 1;
     }
 
