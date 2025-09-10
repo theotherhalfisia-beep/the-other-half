@@ -80,9 +80,9 @@
     }
     
 
-    .section{
-      margin-bottom:10rem;
-    }
+    /* .section{
+      margin-bottom:3rem;
+    } */
 
     .section-number {
        font-family: 'ClashGrotesk', sans-serif;
@@ -176,10 +176,10 @@
     
     .bottom-footer{
       margin-top:2rem;
-      padding:5rem;
+    
       color:white;
       font-family: 'Satoshi';
-      padding:2rem;
+      
       
     }
     @media (max-width: 768px) {

@@ -83,7 +83,7 @@
 ------------------------------ */
 .bottom-footer {
  
-  padding: 2rem;
+  padding-bottom: 5rem;
   color: white;
   font-family: 'Satoshi';
 }
@@ -94,7 +94,8 @@
 .gray-section {
   background-color: #d3d3d3;
   min-height: 300px;
-  margin-bottom: 2rem;
+  margin-bottom:2rem;
+  padding-bottom: 5rem;
 }
 .gray-section.large {
   min-height: 400px;
@@ -206,7 +207,7 @@
 }
 
 .bottom-footer{
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 /* ------------------------------
  IMAGE
