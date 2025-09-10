@@ -82,6 +82,12 @@ body {
 
 .bottom-footer{
   margin-top:6rem;
+   font-weight:750;
+}
+
+
+.image-book{
+  width: 100%;
 }
 /* ====== OPTIONAL MEDIA QUERIES (if you want explicit control) ====== */
 

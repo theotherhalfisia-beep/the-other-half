@@ -17,7 +17,10 @@
   width: 20px;
 }
 
-
+.container-fluid{
+  margin:0 !important;
+  padding: 0 !important;
+}
 /* ------------------------------
    INDEX SECTION
 ------------------------------ */
@@ -94,7 +97,7 @@
    FOOTER
 ------------------------------ */
 .bottom-footer {
-  margin-top: 2rem;
+ 
   padding: 2rem;
   color: white;
   font-family: 'Satoshi';
@@ -143,7 +146,7 @@
 /* CLEANED UP BOTTOM IMAGE STYLES */
 .bottom-image {
   background-color: #ffffff;
-  min-height: 400px;
+  /* min-height: 400px; */
   margin: 0;
   width: 100%;
 }
@@ -151,7 +154,12 @@
 /* Specific rule for bottom-section layout */
 .bottom-section .bottom-image {
   flex: 0 0 40%;
+
 }
+
+/* .bottom-section{
+  padding-bottom:2rem;
+} */
 
 /* ------------------------------
    TITLE SECTION
@@ -178,6 +186,7 @@
   display: flex;
   gap: 3rem;
   align-items: flex-start;
+  margin-bottom:1rem;
 }
 .bottom-text {
   flex: 1;
@@ -210,6 +219,17 @@
   content: "→";
   font-size: 1.2rem;
 }
+
+.bottom-footer{
+  padding-bottom: 2rem;
+}
+/* ------------------------------
+ IMAGE
+------------------------------ */
+.image-book{
+width:100%;
+}
+
 
 /* ------------------------------
    RESPONSIVE (≤768px)
@@ -269,6 +289,11 @@
     font-size: 2.5rem;
   }
 
+  .bottom-section { }
+.bottom-content {
+
+  margin-bottom:2rem;
+}
   /* Bottom section */
   .bottom-content {
     flex-direction: column;
