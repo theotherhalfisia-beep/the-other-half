@@ -1,26 +1,8 @@
 /* ------------------------------
    GLOBAL / BASE STYLES
 ------------------------------ */
-.index-list a {
-  font-family: 'Satoshi';
-  text-decoration: none;
-  color: inherit;
-}
-.index-list a:hover {
-  text-decoration: none;
-  color: #ffffff;
-}
-.link {
-  color: #ffffff;
-}
-.nav-dots.small {
-  width: 20px;
-}
 
-.container-fluid{
-  margin:0 !important;
-  padding: 0 !important;
-}
+
 /* ------------------------------
    INDEX SECTION
 ------------------------------ */
@@ -91,7 +73,10 @@
   margin: 2rem 0;
 }
 
-
+.bottom-content{
+  margin:0 !important;
+  padding:0 !important;
+}
 
 /* ------------------------------
    FOOTER
